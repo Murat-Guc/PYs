@@ -10,7 +10,7 @@ def girisyap():
     global girisbutonu
     kullaniciadi = entry1.get()
     sifre = entry2.get()
-    if kullaniciadi == "murat" and sifre == "admin":
+    if kullaniciadi == "admin" and sifre == "admin":
         messagebox.showinfo("s1gn_1n", "Giris basarili!")
         makina = tk.Tk()
         makina.title("mach1n3")
